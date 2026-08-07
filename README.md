@@ -34,6 +34,7 @@ The final deployed model uses **Logistic Regression** and predicts loan approval
 - Feature engineered model inputs
 - Approval probability estimation
 - Interactive Streamlit web application
+- Premium UI with custom SVG icons, glassmorphism, and responsive auto-scrolling
 - Live cloud deployment
 
 ---
