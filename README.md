@@ -171,7 +171,7 @@ The following files are used during inference and deployment:
 
 ## 👨‍💻 Author
 
-**Hari Krishnan**
+**Hari Krishnan S**
 
 Computer Science Student | Machine Learning Enthusiast
 
