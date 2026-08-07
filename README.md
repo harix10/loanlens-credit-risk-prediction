@@ -42,12 +42,8 @@ The final deployed model uses **Logistic Regression** and predicts loan approval
 ## 🖥️ Application Preview
 
 ### Home Page
+<img width="1919" height="947" alt="image" src="https://github.com/user-attachments/assets/990a4fe7-bbd7-4ee0-b592-23c7f5222baf" />
 
-![Home Page](assets/home_page.png)
-
-### Prediction Result
-
-![Prediction Result](assets/prediction_result.png)
 
 ---
 
