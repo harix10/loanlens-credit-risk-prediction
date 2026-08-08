@@ -248,7 +248,7 @@ const LandingPage = () => {
                 <div className="space-y-3 font-medium">
                   <div className="flex justify-between border-b border-gray-200 pb-2">
                     <span className="text-gray-600">Accuracy</span>
-                    <span className="font-bold">85.2%</span>
+                    <span className="font-bold">75.5%</span>
                   </div>
                   <div className="flex justify-between pt-1">
                     <span className="text-gray-600">Status</span>
