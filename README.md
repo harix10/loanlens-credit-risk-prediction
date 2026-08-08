@@ -95,7 +95,7 @@ The final deployed model uses **Logistic Regression** and predicts loan approval
 |---------|---------|
 | Logistic Regression | 87.5% |
 | Gaussian Naive Bayes | 86.5% |
-| K-Nearest Neighbors | 75.7% |
+| K-Nearest Neighbors | 75.5% |
 
 Based on overall performance and generalization capability, Logistic Regression was selected as the final deployment model.
 
