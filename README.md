@@ -65,6 +65,7 @@ The final deployed model uses **Logistic Regression** and predicts loan approval
 - Scikit-Learn
 - Logistic Regression
 - Gaussian Naive Bayes
+- K-Nearest Neighbors (KNN)
 
 ### Frontend
 - React (Vite)
@@ -95,6 +96,7 @@ The final deployed model uses **Logistic Regression** and predicts loan approval
 |---------|---------|
 | Logistic Regression | 87.5% |
 | Gaussian Naive Bayes | 86.5% |
+| K-Nearest Neighbors | 85.2% |
 
 Based on overall performance and generalization capability, Logistic Regression was selected as the final deployment model.
 

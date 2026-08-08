@@ -116,7 +116,7 @@ const LandingPage = () => {
           {[
             { label: "Accuracy", value: "87.5%", icon: <TrendingUp size={28} /> },
             { label: "F1 Score", value: "79.7%", icon: <BarChart size={28} /> },
-            { label: "Models", value: "2", icon: <Layers size={28} /> },
+            { label: "Models", value: "3", icon: <Layers size={28} /> },
             { label: "Workflow", value: "End-to-End", icon: <GitBranch size={28} /> }
           ].map((stat, i) => (
             <div key={i} className="flex-1 p-10 border-b-3 md:border-b-0 md:border-r-3 border-black last:border-r-0 flex flex-col justify-center items-center text-center">
@@ -227,7 +227,7 @@ const LandingPage = () => {
                 </div>
               </div>
 
-              {/* Alternative Model */}
+              {/* Alternative Model 1 */}
               <div className="bg-white border-3 border-black p-8 brutal-shadow-sm">
                 <h3 className="text-2xl font-bold uppercase tracking-tight mb-6">Gaussian Naive Bayes</h3>
                 <div className="space-y-3 font-medium">
@@ -238,6 +238,21 @@ const LandingPage = () => {
                   <div className="flex justify-between pt-1">
                     <span className="text-gray-600">Status</span>
                     <span className="font-bold text-gray-400 uppercase">Baseline</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* Alternative Model 2 */}
+              <div className="bg-white border-3 border-black p-8 brutal-shadow-sm">
+                <h3 className="text-2xl font-bold uppercase tracking-tight mb-6">K-Nearest Neighbors</h3>
+                <div className="space-y-3 font-medium">
+                  <div className="flex justify-between border-b border-gray-200 pb-2">
+                    <span className="text-gray-600">Accuracy</span>
+                    <span className="font-bold">85.2%</span>
+                  </div>
+                  <div className="flex justify-between pt-1">
+                    <span className="text-gray-600">Status</span>
+                    <span className="font-bold text-gray-400 uppercase">Evaluated</span>
                   </div>
                 </div>
               </div>
