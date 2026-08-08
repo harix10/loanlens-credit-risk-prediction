@@ -6,7 +6,8 @@ The application evaluates applicant financial and demographic information and pr
 
 ## 🚀 Live Demo
 
-🔗 https://loanlens-credit-risk-assessment.streamlit.app
+🔗 **Landing Page:** https://harix10.github.io/loanlens-credit-risk-prediction/
+🔗 **ML Engine:** https://loanlens-credit-risk-assessment.streamlit.app
 
 ---
 
@@ -33,9 +34,10 @@ The final deployed model uses **Logistic Regression** and predicts loan approval
 - Loan approval prediction
 - Feature engineered model inputs
 - Approval probability estimation
-- Interactive Streamlit web application
+- Beautiful React Landing Page
+- Interactive Streamlit ML web application
 - Premium UI with custom SVG icons, glassmorphism, and responsive auto-scrolling
-- Live cloud deployment
+- Live cloud deployments via GitHub Pages and Streamlit Community Cloud
 
 ---
 
@@ -61,11 +63,15 @@ The final deployed model uses **Logistic Regression** and predicts loan approval
 - Logistic Regression
 - Gaussian Naive Bayes
 
+### Frontend
+- React (Vite)
+- Tailwind CSS
+- Lucide React
+
 ### Deployment
-- Streamlit
-- Git
-- GitHub
-- Streamlit Community Cloud
+- GitHub Pages (Landing Page)
+- Streamlit Community Cloud (ML Engine)
+- Git & GitHub
 
 ---
 
@@ -107,12 +113,15 @@ Categorical variables were transformed using One-Hot Encoding.
 ```text
 loanlens-credit-risk-prediction/
 │
+├── loanlens-landing/                     # React Landing Page Source
+├── workflow_diagram.html                 # Custom ML Workflow Diagram
+│
 ├── assets/
 │   ├── home_page.png
 │   └── prediction_result.png
 │
-├── app.py
-├── loanlens_credit_risk_assessment.ipynb
+├── app.py                                # Streamlit Application
+├── loanlens_credit_risk_assessment.ipynb # ML Training Notebook
 ├── loanlens_model.pkl
 ├── scaler.pkl
 ├── feature_names.pkl
